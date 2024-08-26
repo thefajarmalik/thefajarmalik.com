@@ -1,0 +1,43 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: thefajarmalik
+theme: ["PaperMod"]
+defaultContentLanguage: "en"
+summaryLength: 50
+paginate: 10
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Blog"
+      url: "/posts/"
+      weight: 2
+    - name: "Portfolio"
+      url: "/Portfolio/"
+      weight: 3
+
+params:
+  title: "thefajarmalik"  # This is your site's main title
+  description: "Cybersecurity | Study abroad | Scholarship"  # This is your site's meta description
+  author: "Fajar Malik"  # This is the author name that appears in metadata
+  keywords: ["cyber security", "scholarship", "study abroad"]  # List of keywords relevant to your site
+  # favicon: "images/favicon.png"  # Path to your site's favicon (if you have one)
+  canonicalURL: "https://thefajarmalik.com"  # The canonical URL of your website
+  robots: "index, follow"  # Directives for search engine crawlers
+  twitterSite: "@thefajarmalik"  # Your Twitter handle for Twitter cards
+  twitterCreator: "@thefajarmalik"  # Your Twitter handle as the content creator
+  ogTitle: "thefajarmalik"  # Default title for Open Graph
+  ogDescription: "Cybersecurity | Study abroad | Scholarship"
+  # ogImage: "images/og-image.png"  # Path to a default image for social media previews
+  ogType: "website"  # Type of the object (e.g., website, article)
+  ogURL: "https://thefajarmalik.com"  # URL of your website
+  homeInfoParams:
+    Title: Hello world!
+    Content: I work in cybersecurity. I love badminton.
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/thefajarmalik/"
+    - name: "instagram"
+      url: "https://www.instagram.com/thefajarmalik"
