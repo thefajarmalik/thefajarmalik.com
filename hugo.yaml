@@ -1,4 +1,4 @@
-baseURL: https://thefajarmalik.vercel.app/
+baseURL: "https://thefajarmalik.vercel.app/"
 languageCode: en-us
 title: thefajarmalik
 theme: ["PaperMod"]
