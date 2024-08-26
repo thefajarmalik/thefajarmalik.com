@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://thefajarmalik.vercel.app/
 languageCode: en-us
 title: thefajarmalik
 theme: ["PaperMod"]
@@ -15,7 +15,7 @@ menu:
       url: "/posts/"
       weight: 2
     - name: "Portfolio"
-      url: "/Portfolio/"
+      url: "/portfolio/"
       weight: 3
 
 params:
@@ -35,7 +35,7 @@ params:
   ogURL: "https://thefajarmalik.com"  # URL of your website
   homeInfoParams:
     Title: Hello world!
-    Content: I work in cybersecurity. I love badminton.
+    Content: I work in cybersecurity. I play badminton as a hobby.
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/thefajarmalik/"
