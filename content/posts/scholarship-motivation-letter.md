@@ -10,7 +10,7 @@ tags = ["scholarship", "motivation letter", "essay"]
 
 ### First things first: Who am I & why should you trust me?
 
-I was granted an Erasmus Mundus scholarship to pursue a Master's degree in [SECCLO](https://www.secclo.eu/target=%22_blank%22), co-funded by the Erasmus+ Programme of the European Union.
+I was granted an Erasmus Mundus scholarship to pursue a Master's degree in [SECCLO](https://www.secclo.eu/), co-funded by the Erasmus+ Programme of the European Union.
 
 I followed these guidelines you are about to read and I got the scholarship. But feel free to disagree!
 
