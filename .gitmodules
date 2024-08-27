@@ -1,3 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "unsplash-markdown-generator"]
+	path = unsplash-markdown-generator
+	url = https://github.com/lilacse/unsplash-markdown-generator
