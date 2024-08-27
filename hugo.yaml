@@ -35,9 +35,11 @@ params:
   ogURL: "https://thefajarmalik.com"  # URL of your website
   homeInfoParams:
     Title: Hello world!
-    Content: I work in cybersecurity. I play badminton as a hobby.
+    Content: I’m a soon-to-be graduate in cybersecurity, excited to start my career in this field. I’m passionate about keeping systems secure and staying ahead of threats. When I’m not working on tech, you’ll find me on the court playing badminton, tennis, or hitting the slopes skiing in the winter, or just playing Counter-Strike at home.
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/thefajarmalik/"
     - name: "instagram"
       url: "https://www.instagram.com/thefajarmalik"
+    - name: "email"
+      url: "mailto:mrfajarmalik@gmail.com"

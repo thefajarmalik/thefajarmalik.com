@@ -4,6 +4,7 @@ date = 2022-04-06T16:00:31+03:00
 draft = false
 canonicalURL = "https://thefajarmalik.com/posts/scholarship-motivation-letter/"
 tags = ["scholarship", "motivation letter", "essay"]
+weight = 1
 +++
 > There is no right or wrong in writing a motivation letter. In this post, I merely show you how I wrote mine which got me a scholarship.
 > 
