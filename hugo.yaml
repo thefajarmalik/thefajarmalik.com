@@ -22,6 +22,7 @@ menu:
       weight: 3
 
 params:
+  env: production
   title: "thefajarmalik"  # This is your site's main title
   description: "Cybersecurity | Study abroad | Scholarship"  # This is your site's meta description
   author: "Fajar Malik"  # This is the author name that appears in metadata
