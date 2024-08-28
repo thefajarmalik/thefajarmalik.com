@@ -6,6 +6,9 @@ defaultContentLanguage: "en"
 summaryLength: 50
 paginate: 10
 
+enableRobotsTXT: true
+
+
 menu:
   main:
     - name: "Home"
