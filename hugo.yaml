@@ -52,6 +52,9 @@ params:
       url: "mailto:mrfajarmalik@gmail.com"
       
   ShowShareButtons: true
+  ShareButtons: ["linkedin", "x", "instagram", "whatsapp", "telegram"] # To customize which share buttons to be enabled on page
   ShowReadingTime: true
   ShowToc: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
 

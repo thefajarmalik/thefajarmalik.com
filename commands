@@ -1,3 +1,4 @@
 hugo --cleanDestinationDir
 hugo --gc --minify
 hugo serve
+hugo
