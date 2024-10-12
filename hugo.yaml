@@ -20,6 +20,9 @@ menu:
     - name: "Portfolio"
       url: "/portfolio/"
       weight: 3
+    - name: "Resume"
+      url: "https://github.com/thefajarmalik/cv"
+      weight: 4
 
 params:
   env: production
@@ -46,10 +49,15 @@ params:
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/thefajarmalik/"
-    - name: "instagram"
-      url: "https://www.instagram.com/thefajarmalik"
     - name: "email"
       url: "mailto:mrfajarmalik@gmail.com"
+    - name: "github"
+      url: "https://github.com/thefajarmalik/"
+    - name: "instagram"
+      url: "https://www.instagram.com/thefajarmalik"
+    - name: "threads"
+      url: "https://www.threads.net/@thefajarmalik"
+    
       
   ShowShareButtons: true
   ShareButtons: ["linkedin", "x", "instagram", "whatsapp", "telegram"] # To customize which share buttons to be enabled on page
