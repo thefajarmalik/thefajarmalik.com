@@ -13,14 +13,14 @@ The following are projects I have developed.
 
 ---
 
-### Pseudonymous Authentication Protocol (Thesis project)
+### Pseudonymous Authentication Protocol (master's thesis project)
 
 Privacy-preserving authentication protocol for secure user access to external services in distributed service environments, addressing challenges where centralized single-sign-on (SSO) is impractical. The solution was modeled in applied pi calculus, verified with ProVerif, and demonstrated through a working prototype. Thesis was awarded a very good grade.\
 **Technologies:** Python, Docker, Shell Script, Javascript, ProVerif.
 
 ---
 
-### Smoke Beefs
+### Smoke Beefs (client project)
 
 IoT-based Animal Growth Tracking System. I developed an Android app serving as a tracking dashboard. The project won a prestigious national competition, showcasing innovation and technical excellence.\
 **Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
@@ -38,14 +38,14 @@ Advanced COVID-19 risk mapping model by integrating medical, geographic, demogra
 
 ---
 
-### SrawungPPL
+### SrawungPPL (client project)
 
 Mobile forum application to connect farmers & agricultural experts.\
 **Technologies:** Android Studio, Kotlin, Firebase.
 
 ---
 
-### Carisma Industry
+### Carisma Industry (client project)
 
 Website to showcase products catalog of a leather industry brand.\
 **Technologies:** Wordpress.
