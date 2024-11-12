@@ -4,7 +4,7 @@ description: "A showcase of my work, projects, and achievements."
 draft: false
 ---
 
-I have participated in numerous projects, several of which are listed below. Due to non-disclosure agreements and/or personal reasons, I cannot possibly tell all my projects.
+I have participated in numerous projects, several of which are listed below. Due to non-disclosure agreements and/or personal reasons, some projects are not included in this page.
 
 ![Unsplash Image](https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
@@ -16,6 +16,7 @@ The following are projects I have developed.
 ### Pseudonymous Authentication Protocol
 
 Privacy-preserving authentication protocol for secure user access to external services in distributed service environments, addressing challenges where centralized single-sign-on (SSO) is impractical. The solution was modeled in applied pi calculus, verified with ProVerif, and demonstrated through a working prototype. Master's thesis project, awarded a very good grade.\
+**Skills:** Network security, formal modeling and verification, containerization.\
 **Technologies:** Python, Docker, Shell Script, Javascript, ProVerif.
 
 ---
@@ -59,9 +60,9 @@ I have also managed many projects from clients, some of which are listed below.
 
 ---
 
-### LPDP Talent Hub
+### Talent Hub
 
-RnD project to store LPDP scholarship awardee & alumni data.\
+RnD project to store scholarship awardee & alumni data.\
 **Technologies:** PHP, Laravel, Bootstrap, jQuery.
 
 ---

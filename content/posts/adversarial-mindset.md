@@ -14,6 +14,6 @@ I ended up not buying any watch from that store though, sorry! 😁
 Watch the following YouTube shorts video of a locksmith helping a client:
 [![Watch the video](https://img.youtube.com/vi/qVNlwVyCCRE/maxresdefault.jpg)](https://www.youtube.com/shorts/qVNlwVyCCRE)
 
-When the locksmith managed to get the keys locked inside, he asked his customer, "Which one is the key?". I immediately thought, "Oh that's so cool how he tried confirming that the customer is indeed the homeowner."
+When the locksmith managed to get the keys locked inside, he asked his customer, "Which one is the key?". I immediately thought, "Oh that's so cool how he verified that the customer is indeed the homeowner."
 
 Reflecting on everything I mentioned above, I don't think I can go back to a normal mindset, which is to simply use the system. I will forever try to find attacks that can happen in that system and how they can be mitigated. Also, cybersecurity is not what you think it is! 😅
