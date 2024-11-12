@@ -13,41 +13,41 @@ The following are projects I have developed.
 
 ---
 
-### Pseudonymous Authentication Protocol (master's thesis project)
+### Pseudonymous Authentication Protocol
 
-Privacy-preserving authentication protocol for secure user access to external services in distributed service environments, addressing challenges where centralized single-sign-on (SSO) is impractical. The solution was modeled in applied pi calculus, verified with ProVerif, and demonstrated through a working prototype. Thesis was awarded a very good grade.\
+Privacy-preserving authentication protocol for secure user access to external services in distributed service environments, addressing challenges where centralized single-sign-on (SSO) is impractical. The solution was modeled in applied pi calculus, verified with ProVerif, and demonstrated through a working prototype. Master's thesis project, awarded a very good grade.\
 **Technologies:** Python, Docker, Shell Script, Javascript, ProVerif.
 
 ---
 
-### Smoke Beefs (client project)
+### Smoke Beefs
 
-IoT-based Animal Growth Tracking System. I developed an Android app serving as a tracking dashboard. The project won a prestigious national competition, showcasing innovation and technical excellence.\
+IoT-based Animal Growth Tracking System, client project. I developed an Android app serving as a tracking dashboard. The project won a prestigious national competition, showcasing innovation and technical excellence.\
 **Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
 
 [View in Google Play Store Archive](https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs)
 
 ---
 
-### AHPSAW (bachelor thesis project)
+### AHPSAW
 
-Advanced COVID-19 risk mapping model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.\
+Advanced COVID-19 risk mapping model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities. Bachelor thesis project, awarded maximum grade.\
 **Technologies:** Android Studio, Kotlin, Firebase, Weather API.
 
 <!-- [View in GitHub](https://github.com/thefajarmalik/AHPSAW) -->
 
 ---
 
-### SrawungPPL (client project)
+### SrawungPPL
 
-Mobile forum application to connect farmers & agricultural experts.\
+Client project, mobile forum application to connect farmers & agricultural experts.\
 **Technologies:** Android Studio, Kotlin, Firebase.
 
 ---
 
-### Carisma Industry (client project)
+### Carisma Industry
 
-Website to showcase products catalog of a leather industry brand.\
+Client project, website to showcase products catalog of a leather industry brand.\
 **Technologies:** Wordpress.
 
 ---
