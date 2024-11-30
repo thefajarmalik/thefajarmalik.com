@@ -43,9 +43,19 @@ params:
   homeInfoParams:
     Title: Hello world! 👋
     Content: >
-      I’m a master's graduate in cybersecurity, excited to start my career in this field. I’m passionate about keeping systems secure and staying ahead of threats. 
+      - I’m a master's graduate in cybersecurity, excited to start my career in this field. I’m passionate about keeping systems secure and staying ahead of threats. I'm also interested in helping clients make better decisions when it comes to IT. Check out what I have worked on [here](https://thefajarmalik.com/portfolio/).
       
-      - When I’m not working on tech, you’ll find me on the court playing badminton, hitting the slopes skiing in the winter, or just binging series/movies at home.
+      -
+      
+      - When I’m not working on tech, you’ll find me on the court playing badminton, hitting the slopes skiing in the winter, or just chilling at home.
+
+      -
+
+      - I have also helped many people get scholarsips for their studies, read my articles 👇
+
+      -
+
+      - For business inquiries, send me an email or a connection invitation on Linkedin. Please note that I don't usually accept invitations from random people, so make sure you leave a note 😉 Thanks!
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/thefajarmalik/"
