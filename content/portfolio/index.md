@@ -19,6 +19,8 @@ Privacy-preserving authentication protocol for secure user access to external se
 **Skills:** Network security, formal modeling and verification, containerization.\
 **Technologies:** Python, Docker, Shell Script, Javascript, ProVerif.
 
+[View Master's Thesis Publication](https://aaltodoc.aalto.fi/items/1504145a-ad66-447a-86e4-d228f4c4f8d6)
+
 ---
 
 ### Smoke Beefs

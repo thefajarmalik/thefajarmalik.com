@@ -1,7 +1,7 @@
 +++
 title = '2 Years of Cybersecurity Study Has Instilled an Adversarial Mindset in Me'
 date = 2024-09-05T15:57:04+03:00
-draft = false
+draft = true
 +++
 
 Having almost finished my study in cybersecurity in the [SECCLO](https://www.secclo.eu/) master's program, I often find myself thinking how to compromise / attack a system, be it a digital or just a physical system.
