@@ -20,9 +20,6 @@ menu:
     - name: "Portfolio"
       url: "/portfolio/"
       weight: 3
-    - name: "CV"
-      url: "https://github.com/thefajarmalik/cv"
-      weight: 4
 
 params:
   env: production
