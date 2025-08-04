@@ -24,7 +24,7 @@ menu:
 params:
   env: production
   title: "thefajarmalik"  # This is your site's main title
-  description: "Cybersecurity | Study abroad | Scholarship"  # This is your site's meta description
+  description: "Cyber Security | IT Consulting | Software Development"  # This is your site's meta description
   author: "Fajar Malik"  # This is the author name that appears in metadata
   keywords: ["cyber security", "scholarship", "study abroad"]  # List of keywords relevant to your site
   # favicon: "images/favicon.png"  # Path to your site's favicon (if you have one)
@@ -76,4 +76,4 @@ params:
   ShowToc: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-
+  defaultTheme: light
