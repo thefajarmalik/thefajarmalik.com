@@ -33,7 +33,7 @@ params:
   twitterSite: "@thefajarmalik"  # Your Twitter handle for Twitter cards
   twitterCreator: "@thefajarmalik"  # Your Twitter handle as the content creator
   ogTitle: "thefajarmalik"  # Default title for Open Graph
-  ogDescription: "Cybersecurity | Study abroad | Scholarship"
+  ogDescription: "Cyber Security | IT Consulting | Software Development"
   # ogImage: "images/og-image.png"  # Path to a default image for social media previews
   ogType: "website"  # Type of the object (e.g., website, article)
   ogURL: "https://thefajarmalik.com"  # URL of your website
