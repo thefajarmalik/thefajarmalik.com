@@ -40,6 +40,8 @@ params:
   # ogImage: "images/og-image.png"  # Path to a default image for social media previews
   ogType: "website"  # Type of the object (e.g., website, article)
   ogURL: "https://thefajarmalik.com"  # URL of your website
+  assets:
+    favicon: "/assets/favicon.ico"
   homeInfoParams:
     Title: Hi, I'm Fajar! 👋
     Content: >
