@@ -46,7 +46,7 @@ params:
   assets:
     favicon: "/assets/favicon.ico"
   homeInfoParams:
-    Title: Hi, I'm Fajar! 👋
+    Title: Hi, I am *the* Fajar Malik! 👋
     imageUrl: "/assets/fajar-profile.png"
     Content: >
       - **Cyber Security** | **Software Development** | **IT Consulting**
