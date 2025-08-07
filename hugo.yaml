@@ -4,10 +4,15 @@ title: thefajarmalik
 theme: ["PaperMod"]
 defaultContentLanguage: "en"
 summaryLength: 50
-paginate: 10
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:
@@ -26,16 +31,14 @@ menu:
 
 params:
   env: production
-  title: "thefajarmalik"  # This is your site's main title
+  title: "Fajar Malik | Cyber Security, Software Development, IT Consulting"  # This is your site's main title
   description: "Hi, my name is Fajar. I am passionate about keeping systems secure and staying ahead of threats."  # This is your site's meta description
   # author: "Fajar Malik"  # This is the author name that appears in metadata
   keywords: ["cyber security", "software development", "IT consulting","scholarship", "study abroad", "finland", "norway", "indonesia"]  # List of keywords relevant to your site
-  favicon: /assets/favicon.ico  # Path to your site's favicon (if you have one)
+  # favicon: /assets/favicon.ico  # Path to your site's favicon (if you have one)
   canonicalURL: "https://thefajarmalik.com"  # The canonical URL of your website
   robots: "index, follow"  # Directives for search engine crawlers
-  twitterSite: "@thefajarmalik"  # Your Twitter handle for Twitter cards
-  twitterCreator: "@thefajarmalik"  # Your Twitter handle as the content creator
-  ogTitle: "thefajarmalik"  # Default title for Open Graph
+  ogTitle: "Fajar Malik | Cyber Security, Software Development, IT Consulting"  # Default title for Open Graph
   ogDescription: "Hi, my name is Fajar. I am passionate about keeping systems secure and staying ahead of threats."
   ogImage: "images/og-image.png"  # Path to a default image for social media previews
   ogType: "website"  # Type of the object (e.g., website, article)
@@ -44,12 +47,13 @@ params:
     favicon: "/assets/favicon.ico"
   homeInfoParams:
     Title: Hi, I'm Fajar! 👋
+    imageUrl: "/assets/fajar-profile.png"
     Content: >
       - **Cyber Security** | **Software Development** | **IT Consulting**
       
       -
       
-      - I am passionate about keeping systems secure and staying ahead of threats. I have two master's degrees in **Information Security and Cloud Computing** from the best university in Finland (**Aalto University**) as well as the best university in Norway (**NTNU**). [Click here](https://thefajarmalik.com/portfolio/) to learn more about me.
+      - I am passionate about keeping systems secure and staying ahead of threats. I have two master's degrees in **Information Security and Cloud Computing** from the best university in Finland (**Aalto University**) as well as the best university in Norway (**NTNU**). [Click here](https://thefajarmalik.com/about/) to learn more about me.
       
       -
 
@@ -69,12 +73,7 @@ params:
       url: "mailto:mrfajarmalik@gmail.com"
     - name: "github"
       url: "https://github.com/thefajarmalik/"
-    # - name: "instagram"
-    #   url: "https://www.instagram.com/thefajarmalik"
-    # - name: "threads"
-    #   url: "https://www.threads.net/@thefajarmalik"
     
-      
   ShowShareButtons: false
   ShareButtons: ["linkedin", "x", "instagram", "whatsapp", "telegram"] # To customize which share buttons to be enabled on page
   ShowReadingTime: false

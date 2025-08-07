@@ -3,9 +3,11 @@ title: "About me"
 # description: "A showcase of my work, projects, and achievements."
 draft: false
 ---
-💡 **Cyber Security | Software Development | IT Consulting**
+<img src="/assets/fajar-profile.png" alt="Alt Text" width="200" height="200">
 
-Hi, my name is **Fajar** Malik 👋 
+### Hi, my name is **Fajar** Malik 👋 
+
+💡 Cyber Security | Software Development | IT Consulting
 
 I have been involed in cyber security, software development, and project management / IT consulting. Recently, I was honored with the European Union's **Erasmus Mundus scholarship** (~3.5% acceptance rate) for my Erasmus Mundus **Joint Master's in Security & Cloud Computing (SECCLO)** at **Aalto University** 🇫🇮 and the **Norwegian University of Science and Technology (NTNU**) 🇳🇴, from which I have graduated with **honors**.
 
