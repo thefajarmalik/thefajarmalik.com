@@ -1,0 +1,87 @@
+baseURL = "https://thefajarmalik.com"
+languageCode = "en-us"
+title = "the Fajar Malik"
+theme = "careercanvas"
+
+[params]
+name = "Fajar Malik"
+tagline = "Consultant. Developer. Hacker."
+location = "Helsinki, Finland"
+email = "mrfajarmalik@gmail.com"
+profile_image = "/images/fajar-profile.png"
+description = "I am passionate about keeping systems secure and staying ahead of threats. I have two master's degrees in Information Security and Cloud Computing from the best university in Finland (Aalto University) as well as the best university in Norway (NTNU)."
+author = "Fajar Malik"
+# TODO: Create an og image for the site
+# og_image = ""
+
+hero_description = "I am passionate about keeping systems secure and staying ahead of threats. I have two master's degrees in Information Security and Cloud Computing from the best university in Finland (Aalto University) as well as the best university in Norway (NTNU)."
+hero_location = "Helsinki, Finland"
+
+linkedin_url = "https://www.linkedin.com/in/thefajarmalik"
+linkedin_text = "linkedin.com/in/thefajarmalik"
+github_url = "https://github.com/thefajarmalik"
+github_text = "github.com/thefajarmalik"
+
+copyright = "© 2025 | Fajar Malik"
+
+collab_tags = [
+  "Cyber Security",
+  "Software Development",
+  "IT Consulting",
+]
+
+# Technical skills configuration
+[params.technical_skills]
+# FontAwesome brand icons (for special icons like Python, JS, etc.)
+brand_icons = ["python", "js", "html5", "css3-alt", "linux", "docker", "github", "gitlab"]
+
+[[params.social]]
+icon = "linkedin-in"
+url = "https://www.linkedin.com/in/thefajarmalik"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/thefajarmalik"
+
+sectionPagesMenu = 'main'
+
+[[menu.main]]
+  name = "About"
+  url = "/#about"
+  weight = 2
+
+[[menu.main]]
+  name = "Technical Skills"
+  url = "/#technical"
+  weight = 3
+
+[[menu.main]]
+  name = "Experience"
+  url = "/#experience"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 5
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 60
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
