@@ -43,4 +43,20 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
   ],
+  safelist: [
+    'from-blue-100', 'to-blue-200',
+    'dark:from-blue-900', 'dark:to-blue-800',
+    'from-green-100', 'to-green-200',
+    'dark:from-green-900', 'dark:to-green-800',
+    'from-purple-100', 'to-purple-200',
+    'dark:from-purple-900', 'dark:to-purple-800',
+    'from-orange-100', 'to-orange-200',
+    'dark:from-orange-900', 'dark:to-orange-800',
+    'from-red-100', 'to-red-200',
+    'dark:from-red-900', 'dark:to-red-800',
+    'text-green-600', 'dark:text-green-300',
+    'text-purple-600', 'dark:text-purple-300',
+    'text-orange-600', 'dark:text-orange-300',
+    'text-red-600', 'dark:text-red-300'
+  ]
 }
