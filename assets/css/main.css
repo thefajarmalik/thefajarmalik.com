@@ -1921,6 +1921,10 @@ body {
   margin-top: 0.25rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -1935,10 +1939,6 @@ body {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-12{
-  margin-top: 3rem;
 }
 
 .block{
@@ -2432,11 +2432,6 @@ body {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
-.bg-teal-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 184 166 / var(--tw-bg-opacity, 1));
-}
-
 .bg-opacity-20{
   --tw-bg-opacity: 0.2;
 }
@@ -2868,6 +2863,11 @@ body {
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
 }
 
+.text-blue-700{
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
+}
+
 .text-blue-800{
   --tw-text-opacity: 1;
   color: rgb(30 64 175 / var(--tw-text-opacity, 1));
@@ -2956,11 +2956,6 @@ body {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-blue-700{
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0{
@@ -3632,11 +3627,6 @@ section[id] {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
-.dark\:bg-teal-600:is(.dark *){
-  --tw-bg-opacity: 1;
-  background-color: rgb(13 148 136 / var(--tw-bg-opacity, 1));
-}
-
 .dark\:from-blue-100:is(.dark *){
   --tw-gradient-from: #dbeafe var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(219 234 254 / 0) var(--tw-gradient-to-position);
@@ -3833,11 +3823,6 @@ section[id] {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-gray-900:is(.dark *){
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
-}
-
 .dark\:hover\:bg-blue-600:hover:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
@@ -3930,16 +3915,16 @@ section[id] {
     margin-bottom: 0px;
   }
 
+  .md\:mb-4{
+    margin-bottom: 1rem;
+  }
+
   .md\:ml-8{
     margin-left: 2rem;
   }
 
   .md\:mt-0{
     margin-top: 0px;
-  }
-
-  .md\:mb-4{
-    margin-bottom: 1rem;
   }
 
   .md\:block{
@@ -4065,10 +4050,6 @@ section[id] {
 
   .lg\:justify-end{
     justify-content: flex-end;
-  }
-
-  .lg\:justify-center{
-    justify-content: center;
   }
 
   .lg\:px-8{
