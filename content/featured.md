@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Featured"
 type: "homepage"
 intro: >-
   I was honored to be invited to "The Collaboration Chronicles Indonesia and Finland: 70 Years, 70 Stories".
