@@ -5,7 +5,7 @@ intro: >-
   Technical expertise spanning from software development to cyber security.
 
 technical_groups:
-  - title: "Cyber Security"
+  - title: "Cyber Secu&shy;rity"
     icon: "user-shield"
     color_scheme: "blue"
     skills:
@@ -44,18 +44,20 @@ technical_groups:
       - name: "Vitest"
         icon: "bolt"
 
-  - title: "Frameworks/Platforms"
+  - title: "Plat&shy;forms / Frame&shy;works"
     icon: "toolbox"
     color_scheme: "purple"
     skills:
       - name: "Android"
         icon: "android"
+      - name: "Web"
+        icon: "globe"
       - name: "React"
         icon: "react"
       - name: "Hugo"
         icon: "h"
 
-  - title: "Infrastructure / DevOps"
+  - title: "Infra&shy;structure / Dev&shy;Ops"
     icon: "tools"
     color_scheme: "yellow"
     skills:
@@ -77,7 +79,7 @@ technical_groups:
       - name: "GitLab"
         icon: "gitlab"
 
-  - title: "Tools"
+  - title: "Tools & Others"
     icon: "tools"
     color_scheme: "green"
     skills:
