@@ -39,7 +39,9 @@ brand_icons = [
   "github",
   "gitlab",
   "golang",
+  "google",
   "android",
+  "react",
 ]
 
 [[params.social]]
