@@ -24,8 +24,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone --recurse-submodules https://github.com/felipecordero/felipecordero.github.io.git
-cd felipecordero.github.io
+git clone --recurse-submodules https://github.com/thefajarmalik/thefajarmalik.git
+cd thefajarmalik
 ```
 
 2. Install npm dependencies:
@@ -51,7 +51,7 @@ To build the site for production, you need to:
 
 1. Build the CSS with Tailwind:
 ```bash
-npm run build:css
+npm run build:css-main
 ```
 
 2. Build the site with Hugo:
@@ -61,7 +61,7 @@ npm run build
 
 Or you can do both in one command:
 ```bash
-npm run build:css && npm run build
+npm run build:css-main && npm run build
 ```
 
 The built site will be in the `public/` directory.
