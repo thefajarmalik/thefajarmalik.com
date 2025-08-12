@@ -1,7 +1,6 @@
 ---
 title: "About"
 type: "homepage"
-featured_image: "/images/felipe-cordero-profile.jpeg"
 intro: >-
   Hi! I am Fajar Malik, a security specialist and software developer with double master's degree in Security & Cloud, now looking for opportunities within the fields of cyber security, software development, and IT consulting, as well as any combination of them. Recently, I was honored to participate in the Collaboration Chronicles by Embassy of Finland in Jakarta, showcasing people with notable contribution to Finland-Indonesia cooperation.  I was also honored with the prestigious Erasmus Mundus Scholarship for my master studies (~3.5% acceptance rate).
 passion_title:
