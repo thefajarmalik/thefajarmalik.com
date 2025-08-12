@@ -1937,6 +1937,10 @@ body {
   margin-top: 2rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .block{
   display: block;
 }
@@ -2079,6 +2083,10 @@ body {
 
 .max-w-sm{
   max-width: 24rem;
+}
+
+.max-w-xl{
+  max-width: 36rem;
 }
 
 .flex-1{
@@ -3930,6 +3938,10 @@ section[id] {
     margin-top: 0px;
   }
 
+  .md\:mb-4{
+    margin-bottom: 1rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -4053,6 +4065,10 @@ section[id] {
 
   .lg\:justify-end{
     justify-content: flex-end;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
   }
 
   .lg\:px-8{
