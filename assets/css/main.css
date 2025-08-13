@@ -1981,6 +1981,10 @@ body {
   margin-top: 2rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .block{
   display: block;
 }
@@ -4268,12 +4272,24 @@ section[id] {
     flex-direction: row;
   }
 
+  .lg\:items-start{
+    align-items: flex-start;
+  }
+
   .lg\:justify-start{
     justify-content: flex-start;
   }
 
   .lg\:justify-end{
     justify-content: flex-end;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
+  }
+
+  .lg\:self-start{
+    align-self: flex-start;
   }
 
   .lg\:px-8{
