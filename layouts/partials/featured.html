@@ -2,8 +2,11 @@
     {{ with .Site.GetPage "featured" }}
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-4 font-heading text-gray-900 dark:text-white">Featured in</h2>
-        <p class="text-lg text-center mb-12 text-gray-600 dark:text-gray-400 italic">{{ .Params.intro }}</p>
-        
+        <p class="text-lg text-center mb-12 text-gray-600 dark:text-gray-400 italic">{{ .Params.intro | safeHTML }}</p>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed md:mb-4 mt-12 mb-4 flex-1 about-text-element"
+            data-animation="intro">
+            {{ .Params.description | markdownify }}
+        </p>
         <div class="bg-white dark:bg-gray-800 max-w-xl mx-auto p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 project-card opacity-0 border border-gray-200 dark:border-gray-700"
             data-animate data-animate-delay="100">
             <div style="width: 100%;" align="center">
@@ -96,15 +99,13 @@
                             style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
                             <a href="https://www.instagram.com/p/DG4knkfT--I/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                target="_blank">A post shared by Finland in Indonesia (@finlandjakarta)</a></p>
+                                target="_blank">A post shared by Finland in Indonesia (@finlandjakarta)</a>
+                        </p>
                     </div>
                 </blockquote>
             </div>
         </div>
-        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed md:mb-4 mt-12 mb-4 flex-1 about-text-element"
-            data-animation="intro">
-            {{ .Params.description | markdownify }}
-        </p>
+
     </div>
     {{ end }}
 </section>
