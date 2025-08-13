@@ -11,6 +11,8 @@ technical_groups:
     skills:
       - name: "Secure Protocol Design"
         icon: "lock"
+      - name: "Cryptography"
+        icon: "key"
       - name: "Network Security"
         icon: "network-wired"
       - name: "Penetration Testing"
