@@ -5,7 +5,7 @@ intro: >-
   Technical expertise spanning from software development to cyber security.
 
 technical_groups:
-  - title: "Cyber Secu&shy;rity"
+  - title: "Cyber Se&shy;cu&shy;ri&shy;ty"
     icon: "user-shield"
     color_scheme: "blue"
     skills:
@@ -18,12 +18,12 @@ technical_groups:
       - name: "ISO 27001"
         icon: "certificate"
       - name: "ProVerif"
-        icon: "search"
+        icon: "list-check"
       - name: "Security Teaching"
-        icon: "chalkboard"
+        icon: "person-chalkboard"
   
-  - title: "Programming Languages"
-    icon: "code"
+  - title: "Pro&shy;gram&shy;ming Lan&shy;guag&shy;es"
+    icon: "laptop-code"
     color_scheme: "teal"
     skills:
       - name: "Python"
@@ -33,29 +33,7 @@ technical_groups:
       - name: "Go"
         icon: "golang"
       - name: "Kotlin"
-        icon: "android"
-
-  - title: "Testing"
-    icon: "vial"
-    color_scheme: "indigo"
-    skills:
-      - name: "Playwright"
-        icon: "masks-theater"
-      - name: "Vitest"
-        icon: "bolt"
-
-  - title: "Plat&shy;forms / Frame&shy;works"
-    icon: "toolbox"
-    color_scheme: "purple"
-    skills:
-      - name: "Android"
-        icon: "android"
-      - name: "Web"
-        icon: "globe"
-      - name: "React"
-        icon: "react"
-      - name: "Hugo"
-        icon: "h"
+        icon: "code"
 
   - title: "Infra&shy;structure / Dev&shy;Ops"
     icon: "tools"
@@ -64,9 +42,9 @@ technical_groups:
       - name: "Docker"
         icon: "docker"
       - name: "Kubernetes"
-        icon: "cog"
+        icon: "gear"
       - name: "Terraform"
-        icon: "square"
+        icon: "gears"
       - name: "Aplus"
         icon: "cloud"
       - name: "GCP"
@@ -79,13 +57,37 @@ technical_groups:
       - name: "GitLab"
         icon: "gitlab"
 
-  - title: "Tools & Others"
+  - title: "Plat&shy;forms / Frame&shy;works"
+    icon: "toolbox"
+    color_scheme: "purple"
+    skills:
+      - name: "Android"
+        icon: "android"
+      - name: "Web"
+        icon: "globe"
+      - name: "NodeJS"
+        icon: "node-js"
+      - name: "React"
+        icon: "react"
+      - name: "Hugo"
+        icon: "file-code"
+
+  - title: "Testing"
+    icon: "flask-vial"
+    color_scheme: "indigo"
+    skills:
+      - name: "Playwright"
+        icon: "masks-theater"
+      - name: "Vitest"
+        icon: "bolt"
+
+  - title: "Tools & Util&shy;i&shy;ties"
     icon: "tools"
     color_scheme: "green"
     skills:
       - name: "Git"
-        icon: "code-branch"
-      - name: "VSCode"
+        icon: "git"
+      - name: "VS Code"
         icon: "code"
       - name: "Linux"
         icon: "linux"

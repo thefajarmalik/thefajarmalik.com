@@ -41,6 +41,8 @@ brand_icons = [
   "google",
   "android",
   "react",
+  "git",
+  "node-js"
 ]
 
 [[params.social]]
