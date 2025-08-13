@@ -13,7 +13,7 @@ description = "I am a cyber security, IT consulting, and software development ta
 author = "Fajar Malik"
 og_image = "/images/og-image.jpg"
 
-hero_description = "I am a cyber security, IT consulting, and software development talent with a Nordic perspective, holding Master's degrees in Security & Cloud from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴.<br><br>I want to help organizations build secure, practical systems with a structured & detail-oriented approach."
+hero_description = "I am a cyber security, IT consulting, and software development talent with a Nordic perspective, holding Master's degrees in <b>Security & Cloud</b> from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴<br>I want to help organizations build secure, practical systems with a structured & detail-oriented approach."
 hero_location = "Helsinki, Finland 🇫🇮"
 
 linkedin_url = "https://www.linkedin.com/in/thefajarmalik"
