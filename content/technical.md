@@ -36,7 +36,7 @@ technical_groups:
         icon: "code"
 
   - title: "Infra&shy;structure / Dev&shy;Ops"
-    icon: "tools"
+    icon: "sitemap"
     color_scheme: "yellow"
     skills:
       - name: "Docker"
@@ -44,21 +44,20 @@ technical_groups:
       - name: "Kubernetes"
         icon: "gear"
       - name: "Terraform"
-        icon: "gears"
+        icon: "server"
       - name: "Aplus"
         icon: "cloud"
       - name: "GCP"
         icon: "google"
       - name: "CI/CD"
         icon: "sync"
-
       - name: "GitHub"
         icon: "github"
       - name: "GitLab"
         icon: "gitlab"
 
   - title: "Plat&shy;forms / Frame&shy;works"
-    icon: "toolbox"
+    icon: "cubes"
     color_scheme: "purple"
     skills:
       - name: "Android"
@@ -88,7 +87,7 @@ technical_groups:
       - name: "Git"
         icon: "git"
       - name: "VS Code"
-        icon: "code"
+        icon: "keyboard"
       - name: "Linux"
         icon: "linux"
       - name: "Shell Scripting"
