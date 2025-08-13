@@ -1,6 +1,6 @@
 baseURL = "https://thefajarmalik.com"
 languageCode = "en-us"
-title = "the Fajar Malik"
+title = "Fajar Malik"
 theme = "careercanvas"
 
 [params]
@@ -9,11 +9,12 @@ tagline = "Consultant. Developer. Hacker."
 location = "Helsinki, Finland"
 email = "mrfajarmalik@gmail.com"
 profile_image = "/images/fajar-profile.png"
-description = "I am a cyber security, IT consulting, and software development talent with a Nordic perspective, holding Master's degrees from Aalto in Finland and NTNU in Norway."
+description = "I am a cyber security, IT consulting, and software development specialist with a Nordic perspective, holding Master's degrees from Aalto in Finland and NTNU in Norway."
 author = "Fajar Malik"
 og_image = "/images/og-image.jpg"
 
-hero_description = "I am a cyber security, IT consulting, and software development talent with a Nordic perspective, holding Master's degrees in <b>Security & Cloud</b> from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴<br>I want to help organizations build secure, practical systems with a structured & detail-oriented approach."
+# hero_description = "I am a cyber security, IT consulting, and software development specialist with a Nordic perspective, holding Master's degrees in <b>Security & Cloud</b> from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴<br>I want to help organizations build secure, practical systems with a structured & detail-oriented approach."
+hero_description = "I am a cyber security, IT consulting, and software development specialist with a Nordic perspective, holding Master's degrees in <b>Security & Cloud</b> from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴"
 hero_location = "Helsinki, Finland 🇫🇮"
 
 linkedin_url = "https://www.linkedin.com/in/thefajarmalik"
