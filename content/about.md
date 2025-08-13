@@ -26,10 +26,10 @@ modal_text_bottom: >-
 quickfacts:
   - title: "Education"
     icon: "graduation-cap"
-    value: "**Erasmus Mundus Joint Master's in Security & Cloud Computing (SECCLO)**, Aalto University&nbsp;🇫🇮 and Norwegian University of Science & Technology&nbsp;🇳🇴<br>**Bachelor in Computer Science**, Universitas Gadjah Mada&nbsp;🇮🇩"
+    value: "🇪🇺&nbsp;**Erasmus Mundus Joint Master's in Security & Cloud Computing (SECCLO)**, Aalto University&nbsp;🇫🇮 and Norwegian University of Science & Technology&nbsp;🇳🇴<br>**Bachelor in Computer Science**, Universitas Gadjah Mada&nbsp;🇮🇩"
   - title: "Awards"
     icon: "trophy"
-    value: "**Erasmus Mundus scholarship awardee**<br>from the European Union&nbsp;🇪🇺 (2022-2024) with **~3.5%** acceptance rate"
+    value: "🇪🇺&nbsp;**Erasmus Mundus scholarship awardee**<br>from the European Union (2022-2024) with **~3.5%** acceptance rate"
   - title: "Languages"
     icon: "language"
     value: "🇬🇧&nbsp;**English** (full professional)<br>🇫🇮&nbsp;**Finnish** (elementary)<br>🇮🇩&nbsp;**Indonesian** (native)"
