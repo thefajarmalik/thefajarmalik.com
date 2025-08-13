@@ -9,11 +9,11 @@ tagline = "Consultant. Developer. Hacker."
 location = "Helsinki, Finland"
 email = "mrfajarmalik@gmail.com"
 profile_image = "/images/fajar-profile.png"
-description = "I am passionate about keeping systems secure and staying ahead of threats. I have two master's degrees in Information Security and Cloud Computing from the best university in Finland (Aalto University) as well as the best university in Norway (NTNU)."
+description = "I am a cyber security, IT consulting, and software development talent with a Nordic perspective, holding Master's degrees in from Aalto in Finland and NTNU in Norway."
 author = "Fajar Malik"
 og_image = "/images/og-image.jpg"
 
-hero_description = "I am passionate about keeping systems secure and staying ahead of threats. I have two master's degrees in Information Security and Cloud Computing from the best university in Finland (Aalto University) as well as the best university in Norway (NTNU)."
+hero_description = "I am a cyber security, IT consulting, and software development talent with a Nordic perspective, holding Master's degrees in Security & Cloud from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴.<br><br>I want to help organizations build secure, practical systems with a structured & detail-oriented approach."
 hero_location = "Helsinki, Finland 🇫🇮"
 
 linkedin_url = "https://www.linkedin.com/in/thefajarmalik"

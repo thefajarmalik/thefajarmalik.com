@@ -54,13 +54,13 @@
         </h2>
         <!-- Description -->
         <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto lg:mx-0 text-gray-600 dark:text-gray-300 leading-relaxed hero-text-element" data-animation="description">
-          {{ .Site.Params.hero_description }}
+          {{ .Site.Params.hero_description | safeHTML }}
         </p>
 
         <!-- Action buttons -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end hero-text-element" data-animation="buttons">
           <a href="#contact" class="bg-blue-600 dark:bg-white text-white dark:text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 dark:hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl hero-button">
-            Get in Touch
+            Hire me!
           </a>
         </div>
         <!-- Social links -->
