@@ -16,6 +16,7 @@ positions:
       - "Designed and implemented a privacy-preserving (pseudonymous) cloud authentication protocol"
       - "Verified the protocol's security properties, leveraging cryptographic protocol verifier (ProVerif)"
       - "Acquired a very good grade (4/5), graduated with honors"
+    skills: "Secure Protocol Design, Python, Docker, Bash Scripting, JavaScript, REST API, ProVerif."
 
   - company: "Aalto University"
     company_url: "https://www.aalto.fi/en"
@@ -27,6 +28,7 @@ positions:
     bullet_points:
       - "Developed automated grading infrastructure for cloud course"
       - "Resolved a critical design flaw that introduced a security vulnerability, improving the integrity of the grading system"
+    skills: "Python testing, Docker, Kubernetes, Gitlab CI/CD, Bash, Aplus, Google Cloud Platform."
 
   - company: "Aalto University"
     company_url: "https://www.aalto.fi/en"
@@ -38,6 +40,7 @@ positions:
     bullet_points:
       - "Assisted students during hands-on exercises"
       - "SQL injections, user authentication, buffer overflow, cross-site scripting, password cracking, etc"
+    skills: "Cyber security, teaching, web application security, ethical hacking, capture the flag."
 
   - company: "OmahTI UGM"
     company_url: "https://omahti.web.id/"
@@ -49,4 +52,5 @@ positions:
     bullet_points:
       - "Delivered 14 projects within a single calendar year with 100% client acceptance"
       - "Certain clients returned for next projects, demonstrating trust in our delivery"
+    skills: "IT consulting, business analysis, SDLC, documentation, negotiation."
 ---

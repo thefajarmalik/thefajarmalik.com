@@ -25,7 +25,7 @@
                 </div>
                 <!-- Company info -->
                 <div class="company-card bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600">
-                  <h3 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-2">
+                  <h3 class="text-lg font-heading font-bold text-gray-900 dark:text-white mb-2">
                     {{ if $exp.company_url }}
                     <a href="{{ $exp.company_url }}" target="_blank" rel="noopener noreferrer" class="company-link group">
                       {{ $exp.company }}
@@ -35,7 +35,7 @@
                     {{ $exp.company }}
                     {{ end }}
                   </h3>
-                  <h4 class="text-blue-600 dark:text-blue-400 font-semibold text-lg mb-3">{{ $exp.role }}</h4>
+                  <h4 class="text-blue-600 dark:text-blue-400 font-semibold text-xl mb-3">{{ $exp.role }}</h4>
                   
                   <!-- Industry and Location -->
                   <div class="flex flex-wrap gap-2 mb-3">
@@ -65,16 +65,20 @@
             <div class="md:w-1/2 px-4">
               <div class="achievements-card bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 opacity-0 transition-all duration-700 transform translate-y-4" data-animate>
                 <div class="flex items-center mb-4">
-                  <i class="fas fa-tasks text-blue-600 dark:text-blue-400 mr-3 text-lg"></i>
+                  <i class="fas fa-list text-blue-600 dark:text-blue-400 mr-3 text-lg"></i>
                   <h5 class="text-lg font-semibold text-gray-900 dark:text-white">Key Achievements</h5>
                 </div>
-                <ul class="space-y-3 text-gray-700 dark:text-gray-300">
+                <ul class="space-y-3 text-gray-600 dark:text-gray-200">
                   {{ range $exp.bullet_points }}
                   <li class="flex items-start">
-                    <i class="fas fa-check-circle text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                    <i class="fas fa-square-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
                     <span>{{ . }}</span>
                   </li>
                   {{ end }}
+                  <li class="flex items-start mt-20">
+                    <i class="fas fa-lightbulb text-amber-500 mr-3 mt-1 flex-shrink-0"></i>
+                    <span class="text-amber-700 dark:text-amber-400">{{ $exp.skills }}</span>
+                  </li>
                 </ul>
               </div>
             </div>
