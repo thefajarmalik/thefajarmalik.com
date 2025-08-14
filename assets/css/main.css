@@ -1981,6 +1981,10 @@ body {
   margin-top: 2rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .block{
   display: block;
 }
@@ -2369,6 +2373,10 @@ body {
 
 .border-t{
   border-top-width: 1px;
+}
+
+.border-r-4{
+  border-right-width: 4px;
 }
 
 .border-blue-200{
@@ -2835,6 +2843,10 @@ body {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pr-3{
+  padding-right: 0.75rem;
 }
 
 .text-left{
@@ -4130,6 +4142,10 @@ section[id] {
     flex-direction: row;
   }
 
+  .sm\:justify-start{
+    justify-content: flex-start;
+  }
+
   .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -4150,6 +4166,10 @@ section[id] {
   .sm\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:text-left{
+    text-align: left;
   }
 }
 
@@ -4210,6 +4230,14 @@ section[id] {
     align-items: center;
   }
 
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
   .md\:justify-center{
     justify-content: center;
   }
@@ -4224,12 +4252,32 @@ section[id] {
     margin-bottom: calc(4rem * var(--tw-space-y-reverse));
   }
 
+  .md\:border-r-4{
+    border-right-width: 4px;
+  }
+
+  .md\:border-l-0{
+    border-left-width: 0px;
+  }
+
   .md\:pb-24{
     padding-bottom: 6rem;
   }
 
   .md\:pt-32{
     padding-top: 8rem;
+  }
+
+  .md\:pr-3{
+    padding-right: 0.75rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
+  }
+
+  .md\:text-right{
+    text-align: right;
   }
 
   .md\:text-3xl{
@@ -4310,6 +4358,10 @@ section[id] {
 
   .lg\:text-left{
     text-align: left;
+  }
+
+  .lg\:text-right{
+    text-align: right;
   }
 
   .lg\:text-4xl{
