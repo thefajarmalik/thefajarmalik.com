@@ -77,6 +77,8 @@ technical_groups:
     icon: "flask-vial"
     color_scheme: "indigo"
     skills:
+      - name: "Python"
+        icon: "python"
       - name: "Playwright"
         icon: "masks-theater"
       - name: "Vitest"
