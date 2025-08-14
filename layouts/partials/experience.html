@@ -8,7 +8,6 @@
     <div class="relative pt-4">
       <!-- Timeline line -->
       <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-200 via-blue-400 to-blue-200 dark:from-blue-700 dark:via-blue-500 dark:to-blue-700 transform -translate-x-1/2"></div>
-
       <!-- Timeline items -->
       <div class="space-y-8 md:space-y-16">
         {{ range $index, $exp := .Params.positions }}
@@ -18,13 +17,12 @@
           
           <div class="md:flex justify-center">
             <!-- Left or Right column -->
-            <div class="md:w-1/2 mb-6 md:mb-0 px-4 flex {{ if modBool $index 2 }}order-1 text-left{{ else }}justify-end text-right{{ end }}">
+            <div class="md:w-1/2 mb-6 md:mb-0 px-4 flex md:justify-end md:text-right">
               <div class="max-w-sm w-full">
                 <!-- Period badge -->
                 <div class="inline-block bg-gradient-to-r from-blue-600 to-blue-700 dark:from-blue-500 dark:to-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3 shadow-lg">
                   <i class="fas fa-calendar-alt mr-2"></i>{{ $exp.period }}
                 </div>
-                
                 <!-- Company info -->
                 <div class="company-card bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600">
                   <h3 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-2">
@@ -55,7 +53,7 @@
                   
                   <!-- Company description -->
                   {{ if $exp.company_description }}
-                  <p class="text-sm text-gray-600 dark:text-gray-300 italic border-l-4 border-blue-200 dark:border-blue-600 pl-3">
+                  <p class="text-sm text-gray-600 dark:text-gray-300 italic pl-3 border-l-4 md:border-l-0 md:pr-3 md:border-r-4 border-blue-200 dark:border-blue-600">
                     {{ $exp.company_description }}
                   </p>
                   {{ end }}
@@ -64,7 +62,7 @@
             </div>
 
             <!-- Bullet points -->
-            <div class="md:w-1/2 px-4 {{ if modBool $index 2 }}order-0{{ end }}">
+            <div class="md:w-1/2 px-4">
               <div class="achievements-card bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 opacity-0 transition-all duration-700 transform translate-y-4" data-animate>
                 <div class="flex items-center mb-4">
                   <i class="fas fa-tasks text-blue-600 dark:text-blue-400 mr-3 text-lg"></i>
