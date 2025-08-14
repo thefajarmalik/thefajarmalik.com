@@ -1957,6 +1957,10 @@ body {
   margin-right: 1rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -1969,6 +1973,10 @@ body {
   margin-top: 0.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -1979,14 +1987,6 @@ body {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-0{
-  margin-top: 0px;
-}
-
-.mt-20{
-  margin-top: 5rem;
 }
 
 .block{
@@ -2377,10 +2377,6 @@ body {
 
 .border-t{
   border-top-width: 1px;
-}
-
-.border-r-4{
-  border-right-width: 4px;
 }
 
 .border-blue-200{
@@ -2805,11 +2801,6 @@ body {
   padding-bottom: 2rem;
 }
 
-.py-0{
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -2852,10 +2843,6 @@ body {
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pr-3{
-  padding-right: 0.75rem;
 }
 
 .text-left{
@@ -2950,6 +2937,16 @@ body {
 .text-\[\#0077B5\]{
   --tw-text-opacity: 1;
   color: rgb(0 119 181 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-500{
+  --tw-text-opacity: 1;
+  color: rgb(245 158 11 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-700{
+  --tw-text-opacity: 1;
+  color: rgb(180 83 9 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-100{
@@ -3130,26 +3127,6 @@ body {
 .text-yellow-800{
   --tw-text-opacity: 1;
   color: rgb(133 77 14 / var(--tw-text-opacity, 1));
-}
-
-.text-amber-600{
-  --tw-text-opacity: 1;
-  color: rgb(217 119 6 / var(--tw-text-opacity, 1));
-}
-
-.text-amber-500{
-  --tw-text-opacity: 1;
-  color: rgb(245 158 11 / var(--tw-text-opacity, 1));
-}
-
-.text-amber-900{
-  --tw-text-opacity: 1;
-  color: rgb(120 53 15 / var(--tw-text-opacity, 1));
-}
-
-.text-amber-700{
-  --tw-text-opacity: 1;
-  color: rgb(180 83 9 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0{
@@ -3972,6 +3949,11 @@ section[id] {
   --tw-gradient-to: #854d0e var(--tw-gradient-to-position);
 }
 
+.dark\:text-amber-400:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity, 1));
+}
+
 .dark\:text-blue-100:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(219 234 254 / var(--tw-text-opacity, 1));
@@ -4107,16 +4089,6 @@ section[id] {
   color: rgb(253 224 71 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-amber-300:is(.dark *){
-  --tw-text-opacity: 1;
-  color: rgb(252 211 77 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-amber-400:is(.dark *){
-  --tw-text-opacity: 1;
-  color: rgb(251 191 36 / var(--tw-text-opacity, 1));
-}
-
 .dark\:hover\:bg-blue-600:hover:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
@@ -4173,20 +4145,12 @@ section[id] {
 }
 
 @media (min-width: 640px){
-  .sm\:w-auto{
-    width: auto;
-  }
-
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row{
     flex-direction: row;
-  }
-
-  .sm\:justify-start{
-    justify-content: flex-start;
   }
 
   .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]){
@@ -4209,10 +4173,6 @@ section[id] {
   .sm\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .sm\:text-left{
-    text-align: left;
   }
 }
 
@@ -4257,10 +4217,6 @@ section[id] {
     width: 20rem;
   }
 
-  .md\:w-auto{
-    width: auto;
-  }
-
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4275,10 +4231,6 @@ section[id] {
 
   .md\:items-center{
     align-items: center;
-  }
-
-  .md\:justify-start{
-    justify-content: flex-start;
   }
 
   .md\:justify-end{
@@ -4299,28 +4251,24 @@ section[id] {
     margin-bottom: calc(4rem * var(--tw-space-y-reverse));
   }
 
-  .md\:border-r-4{
-    border-right-width: 4px;
-  }
-
   .md\:border-l-0{
     border-left-width: 0px;
+  }
+
+  .md\:border-r-4{
+    border-right-width: 4px;
   }
 
   .md\:pb-24{
     padding-bottom: 6rem;
   }
 
-  .md\:pt-32{
-    padding-top: 8rem;
-  }
-
   .md\:pr-3{
     padding-right: 0.75rem;
   }
 
-  .md\:text-left{
-    text-align: left;
+  .md\:pt-32{
+    padding-top: 8rem;
   }
 
   .md\:text-right{
@@ -4405,10 +4353,6 @@ section[id] {
 
   .lg\:text-left{
     text-align: left;
-  }
-
-  .lg\:text-right{
-    text-align: right;
   }
 
   .lg\:text-4xl{
