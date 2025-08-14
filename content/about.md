@@ -9,19 +9,21 @@ modal_text_top: >-
   <br><br>
   During my studies in **Finland** and **Norway**, I built on this foundation through **hands-on** roles in **cyber security and cloud computing**. It started with **guiding students through hands-on cyber security challenges**, not only helped them to succeed but also **strengthened my mastery of the topics**. I went on to develop **backend** components for an **automated testing** system, resolving a **critical security vulnerability** in the process. For my **master's thesis**, I addressed a privacy concern by designing a **privacy-preserving (pseudonymous) cloud authentication protocol**, implemented as a full-stack **prototype** and **verified formally**.
   <br><br>
-  I bring this wide range of skills with structured, detail-oriented approach to help organizations build secure, practical systems they can rely on. 
+  I bring this **wide range of skills** with **structured, detail-oriented approach** to **help** organizations **build secure, practical systems** they can rely on.**
 
 # modal_spotlight_text: >-
     
 # modal_spotlight_icon: "heart"
 
 modal_text_bottom: >-
-  When I am not working on tech, you’ll probably find me:<br>
-  🏸 At the court playing badminton<br>
-  ⚽ Watching football<br>
-  ⛷️ Skiing down the hill<br>
-  🔫 At home playing Counter Strike<br>
-  🖥️ Building a PC
+  When I am **not working on tech**, you’ll probably **find me**:<br>
+  🏸 At the court playing **badminton**,<br>
+  ⚽ Watching **football**,<br>
+  ⛷️ **Skiing** down the hill,<br>
+  🔫 At home playing **Counter Strike**<br>
+  🖥️ **Building** a PC, or
+  ⌨️ Changing my **keycaps**.
+
 
 quickfacts:
   - title: "Education"
