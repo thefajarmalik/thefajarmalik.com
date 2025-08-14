@@ -5,7 +5,7 @@ intro: >-
   Technical expertise spanning from software development to cyber security.
 
 technical_groups:
-  - title: "Cyber Se&shy;cu&shy;ri&shy;ty"
+  - title: "Cyber Security"
     icon: "user-shield"
     color_scheme: "blue"
     skills:
@@ -24,7 +24,7 @@ technical_groups:
       - name: "Security Teaching"
         icon: "person-chalkboard"
   
-  - title: "Pro&shy;gram&shy;ming Lan&shy;guag&shy;es"
+  - title: "Programming Languages"
     icon: "laptop-code"
     color_scheme: "teal"
     skills:
@@ -37,7 +37,7 @@ technical_groups:
       - name: "Kotlin"
         icon: "code"
 
-  - title: "Infra&shy;structure / Dev&shy;Ops"
+  - title: "Infrastructure / DevOps"
     icon: "sitemap"
     color_scheme: "yellow"
     skills:
@@ -58,7 +58,7 @@ technical_groups:
       - name: "GitLab"
         icon: "gitlab"
 
-  - title: "Plat&shy;forms / Frame&shy;works"
+  - title: "Platforms / Frameworks"
     icon: "cubes"
     color_scheme: "purple"
     skills:
@@ -84,7 +84,7 @@ technical_groups:
       - name: "Vitest"
         icon: "bolt"
 
-  - title: "Tools & Util&shy;i&shy;ties"
+  - title: "Tools & Utilities"
     icon: "tools"
     color_scheme: "green"
     skills:
