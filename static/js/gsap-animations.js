@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log('Initializing hero animations...')
 
     // Initialize hero animations first (priority)
-    initHeroAnimations()
     initParticleSystem()
     initMorphingShapes()
     initScrollEffects()
@@ -80,7 +79,6 @@ function loadScrollTrigger () {
       // Only initialize if not already done
       if (!heroAnimationsInitialized) {
         // Initialize hero animations first
-        initHeroAnimations()
         initParticleSystem()
         initMorphingShapes()
         initScrollEffects()
@@ -95,7 +93,6 @@ function loadScrollTrigger () {
     // Only initialize if not already done
     if (!heroAnimationsInitialized) {
       // Initialize hero animations first
-      initHeroAnimations()
       initParticleSystem()
       initMorphingShapes()
       initScrollEffects()
@@ -109,150 +106,6 @@ function loadScrollTrigger () {
     }
   }
   document.head.appendChild(localScrollTrigger)
-}
-
-function initHeroAnimations () {
-  const heroSection = document.querySelector('.hero-section')
-  if (!heroSection) return
-
-  // Set initial states
-  setInitialStates()
-
-  // Create ScrollTrigger with toggleActions
-  ScrollTrigger.create({
-    trigger: heroSection,
-    start: 'top 80%',
-    end: 'bottom 20%',
-    toggleActions: 'play none none reverse',
-    id: 'hero-section-trigger', // Unique ID to avoid conflicts
-    onEnter: () => {
-      console.log('Hero section entered - playing animation')
-      playHeroAnimation()
-    },
-    onEnterBack: () => {
-      console.log('Hero section re-entered - playing animation')
-      playHeroAnimation()
-    },
-    onLeave: () => {
-      console.log('Hero section left - reversing animation')
-    },
-    onLeaveBack: () => {
-      console.log('Hero section re-left - reversing animation')
-    }
-  })
-
-  // Add natural floating animation to background circles (independent of mouse)
-  const backgroundCircles = heroSection.querySelectorAll(
-    '.absolute.opacity-10 > div'
-  )
-  backgroundCircles.forEach((circle, index) => {
-    // Each circle has its own natural floating pattern
-    const floatX = (Math.random() - 0.5) * 40 // Random X movement
-    const floatY = (Math.random() - 0.5) * 30 // Random Y movement
-    const floatDuration = 3 + Math.random() * 2 // Random duration between 3-5s
-    const floatDelay = index * 0.5 // Staggered start
-
-    // Use timeline to ensure natural animation is not overridden
-    const tl = gsap.timeline({ repeat: -1, yoyo: true, delay: floatDelay })
-
-    tl.to(circle, {
-      x: floatX,
-      y: floatY,
-      duration: floatDuration,
-      ease: 'power1.inOut'
-    })
-
-    // Add subtle rotation for more natural movement
-    gsap.to(circle, {
-      rotation: 360,
-      duration: 8 + Math.random() * 4,
-      ease: 'none',
-      repeat: -1,
-      delay: floatDelay
-    })
-
-    // Mark circles as having natural animation to prevent mouse interference
-    circle.setAttribute('data-natural-animation', 'true')
-  })
-
-  // Enhanced hover effects
-  initEnhancedHoverEffects()
-}
-
-function playHeroAnimation () {
-  const heroSection = document.querySelector('.hero-section')
-  if (!heroSection) {
-    console.error('Hero section not found')
-    return
-  }
-
-  // Reset all elements to initial state first
-  setInitialStates()
-
-  // Debug: Check if elements are found
-  const textElements = [
-    '.hero-section [data-animation="greeting"]',
-    '.hero-section [data-animation="name"]',
-    '.hero-section [data-animation="tagline"]',
-    '.hero-section [data-animation="description"]',
-    '.hero-section [data-animation="buttons"]',
-    '.hero-section [data-animation="social"]'
-  ]
-
-  console.log(
-    'Found text elements:',
-    textElements.map(selector => document.querySelector(selector))
-  )
-
-  // Create a fresh timeline
-  const tl = gsap.timeline()
-
-  tl.to(textElements, {
-    opacity: 1,
-    y: 0,
-    rotationX: 0,
-    duration: 0.8,
-    stagger: 0.15,
-    ease: 'power2.out'
-  })
-
-  // Profile image animation
-  const profileImage = heroSection.querySelector('.lg\\:w-1\\/2 .relative')
-  if (profileImage) {
-    console.log('Profile image found')
-    tl.to(
-      profileImage,
-      {
-        opacity: 1,
-        scale: 1,
-        rotationY: 0,
-        y: 0,
-        duration: 1.2,
-        ease: 'back.out(1.7)'
-      },
-      '-=0.5'
-    )
-  } else {
-    console.error('Profile image not found')
-  }
-
-  // Background decorations animation
-  const bgDecorations = heroSection.querySelectorAll(
-    '.absolute.opacity-10 > div'
-  )
-  console.log('Found background decorations:', bgDecorations.length)
-  tl.to(
-    bgDecorations,
-    {
-      opacity: 0.1,
-      scale: 1,
-      rotation: 0,
-      duration: 1,
-      stagger: 0.1,
-      ease: 'power2.out'
-    },
-    '-=0.8'
-  )
 }
 
 function setInitialStates () {
