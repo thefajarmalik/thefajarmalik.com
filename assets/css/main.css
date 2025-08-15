@@ -2359,6 +2359,10 @@ body {
   border-radius: 0.75rem;
 }
 
+.rounded-sm{
+  border-radius: 0.125rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -2738,6 +2742,14 @@ body {
 
 .p-8{
   padding: 2rem;
+}
+
+.p-0{
+  padding: 0px;
+}
+
+.p-9{
+  padding: 2.25rem;
 }
 
 .px-2{
