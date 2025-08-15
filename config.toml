@@ -43,7 +43,9 @@ brand_icons = [
   "android",
   "react",
   "git",
-  "node-js"
+  "node-js",
+  "java",
+  "cuttlefish"
 ]
 
 [[params.social]]
