@@ -141,18 +141,6 @@ function initHeroAnimations () {
     }
   })
 
-  // Add floating animation to profile image
-  const profileImage = heroSection.querySelector('.lg\\:w-1\\/2 .relative')
-  if (profileImage) {
-    gsap.to(profileImage, {
-      y: -10,
-      duration: 2,
-      ease: 'power1.inOut',
-      yoyo: true,
-      repeat: -1
-    })
-  }
-
   // Add natural floating animation to background circles (independent of mouse)
   const backgroundCircles = heroSection.querySelectorAll(
     '.absolute.opacity-10 > div'
