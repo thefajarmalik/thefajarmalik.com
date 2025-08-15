@@ -37,6 +37,9 @@ module.exports = {
         'glow': 'glow 2s ease-in-out infinite',
         'typewriter': 'typewriter 3s steps(40, end)',
       },
+      fontSize:{
+        '3.5xl' : '2.1rem', // Adds font size between 3xl and 4xl for tagline in edge case
+      }
     },
   },
   plugins: [

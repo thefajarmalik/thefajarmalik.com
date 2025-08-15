@@ -43,7 +43,10 @@ brand_icons = [
   "android",
   "react",
   "git",
-  "node-js"
+  "node-js",
+  "java",
+  "cuttlefish",
+  "wordpress"
 ]
 
 [[params.social]]
@@ -80,6 +83,11 @@ weight = 5
 name = "Contact"
 url = "/#contact"
 weight = 6
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio/"
+weight = 7
 
 [[menu.main]]
 name = "Blog"

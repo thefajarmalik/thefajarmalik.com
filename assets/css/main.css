@@ -2005,6 +2005,10 @@ body {
   display: inline-flex;
 }
 
+.table{
+  display: table;
+}
+
 .grid{
   display: grid;
 }
@@ -4275,6 +4279,10 @@ section[id] {
     text-align: right;
   }
 
+  .md\:text-3\.5xl{
+    font-size: 2.1rem;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -4374,6 +4382,11 @@ section[id] {
 @media (min-width: 1280px){
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
