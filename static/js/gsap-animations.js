@@ -36,11 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
       })
     }
 
-    // Initialize about animations after a short delay to avoid conflicts
-    setTimeout(() => {
-      initAboutAnimations()
-    }, 100)
-
     // Initialize typing effect with delay
     setTimeout(() => {
       initTypingEffect()
@@ -90,10 +85,6 @@ function loadScrollTrigger () {
         initMorphingShapes()
         initScrollEffects()
         initMouseTracking()
-        // Initialize about animations with delay
-        setTimeout(() => {
-          initAboutAnimations()
-        }, 100)
         heroAnimationsInitialized = true
       }
     }
@@ -109,11 +100,7 @@ function loadScrollTrigger () {
       initMorphingShapes()
       initScrollEffects()
       initMouseTracking()
-      // Initialize about animations with delay
-      setTimeout(() => {
-        initAboutAnimations()
-      }, 100)
-
+      
       // Initialize typing effect with delay
       setTimeout(() => {
         initTypingEffect()
@@ -312,167 +299,6 @@ function setInitialStates () {
     scale: 0.5,
     rotation: -180
   })
-}
-
-function initAboutAnimations () {
-  console.log('Initializing About section animations...')
-  const aboutSection = document.querySelector('.about-section')
-  if (!aboutSection) {
-    console.error('About section not found!')
-    return
-  }
-  console.log('About section found, setting up animations...')
-
-  // Set initial states
-  setAboutInitialStates()
-
-  // Create ScrollTrigger for About section with unique ID to avoid conflicts
-  ScrollTrigger.create({
-    trigger: aboutSection,
-    start: 'top 80%',
-    end: 'bottom 20%',
-    toggleActions: 'play none none reverse',
-    id: 'about-section-trigger', // Unique ID to avoid conflicts
-    onEnter: () => {
-      console.log('About section entered - playing animation')
-      playAboutAnimation()
-    },
-    onEnterBack: () => {
-      console.log('About section re-entered - playing animation')
-      playAboutAnimation()
-    }
-  })
-
-  // Initialize background animations for About section with reduced intensity
-  if (typeof AnimationUtils !== 'undefined') {
-    AnimationUtils.initSectionBackgroundAnimations('.about-section', {
-      diagonalLines: {
-        count: 1, // Reduced from 2
-        opacity: 0.4, // Reduced from 0.6
-        scaleX: 1.2, // Reduced from 1.3
-        duration: 3.0, // Increased from 2.5
-        rotationDuration: 6 // Increased from 5
-      },
-      splineCurves: {
-        count: 1,
-        opacity: 0.3, // Reduced from 0.4
-        scale: 1.05, // Reduced from 1.1
-        duration: 4.0, // Increased from 3.5
-        rotationDuration: 8 // Increased from 6
-      }
-    })
-  }
-}
-
-function setAboutInitialStates () {
-  const aboutSection = document.querySelector('.about-section')
-  if (!aboutSection) return
-
-  // Set text elements to initial state
-  const textElements = aboutSection.querySelectorAll('[data-animation]')
-  gsap.set(textElements, {
-    opacity: 0,
-    y: 30,
-    rotationX: -10
-  })
-
-  // Set card to initial state
-  const aboutCard = aboutSection.querySelector('.about-card')
-  if (aboutCard) {
-    gsap.set(aboutCard, {
-      opacity: 0,
-      scale: 0.9,
-      y: 50
-    })
-  }
-}
-
-function playAboutAnimation () {
-  const aboutSection = document.querySelector('.about-section')
-  if (!aboutSection) return
-
-  // Reset all elements to initial state first
-  setAboutInitialStates()
-
-  // Create a fresh timeline
-  const tl = gsap.timeline()
-
-  // Animate title
-  const title = aboutSection.querySelector('[data-animation="title"]')
-  if (title) {
-    tl.to(title, {
-      opacity: 1,
-      y: 0,
-      rotationX: 0,
-      duration: 0.8,
-      ease: 'power2.out'
-    })
-  }
-
-  // Animate intro text
-  const intro = aboutSection.querySelector('[data-animation="intro"]')
-  if (intro) {
-    tl.to(
-      intro,
-      {
-        opacity: 1,
-        y: 0,
-        rotationX: 0,
-        duration: 0.8,
-        ease: 'power2.out'
-      },
-      '-=0.4'
-    )
-  }
-
-  // Animate card
-  const aboutCard = aboutSection.querySelector('.about-card')
-  if (aboutCard) {
-    tl.to(
-      aboutCard,
-      {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 1,
-        ease: 'back.out(1.7)'
-      },
-      '-=0.6'
-    )
-  }
-
-  // Animate facts title
-  const factsTitle = aboutSection.querySelector(
-    '[data-animation="facts-title"]'
-  )
-  if (factsTitle) {
-    tl.to(
-      factsTitle,
-      {
-        opacity: 1,
-        y: 0,
-        rotationX: 0,
-        duration: 0.8,
-        ease: 'power2.out'
-      },
-      '-=0.8'
-    )
-  }
-
-  // Animate fact cards with stagger
-  const factCards = aboutSection.querySelectorAll('[data-animation^="fact-"]')
-  tl.to(
-    factCards,
-    {
-      opacity: 1,
-      y: 0,
-      rotationX: 0,
-      duration: 0.8,
-      stagger: 0.15,
-      ease: 'power2.out'
-    },
-    '-=0.6'
-  )
 }
 
 function initParticleSystem () {
