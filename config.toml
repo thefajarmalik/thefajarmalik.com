@@ -45,7 +45,8 @@ brand_icons = [
   "git",
   "node-js",
   "java",
-  "cuttlefish"
+  "cuttlefish",
+  "wordpress"
 ]
 
 [[params.social]]

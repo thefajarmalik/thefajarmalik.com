@@ -80,6 +80,8 @@ technical_groups:
         icon: "node-js"
       - name: "React"
         icon: "react"
+      - name: "WordPress"
+        icon: "wordpress"
       - name: "Hugo"
         icon: "file-code"
       - name: "REST"
