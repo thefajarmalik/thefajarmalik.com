@@ -16,7 +16,8 @@ I addressed the challenge of **enabling authenticated access to a third-party se
 
 **Technologies:** Python, Docker, Shell Script, Javascript, ProVerif
 
-[View Master's Thesis Publication](https://aaltodoc.aalto.fi/items/1504145a-ad66-447a-86e4-d228f4c4f8d6)
+<a href="https://aaltodoc.aalto.fi/items/1504145a-ad66-447a-86e4-d228f4c4f8d6" target="_blank">View Master's Thesis Publication</a> | <a href="https://github.com/thefajarmalik/aplus-auth-forward" target="_blank">View ProVerif code</a> <br>
+View prototype source code: <a href="https://github.com/thefajarmalik/aplus-course" target="_blank">Aplus (IdP)</a> | <a href="https://github.com/thefajarmalik/exercise-platform" target="_blank">External service</a>
 
 ---
 
@@ -26,7 +27,7 @@ For a client project, I developed the Android app for Smoke Beefs, an IoT-based 
 
 **Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors
 
-[View in Google Play Store Archive](https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs)
+<a href="https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs" target="_blank">View in Google Play Store Archive</a>
 
 ---
 
@@ -36,7 +37,8 @@ I tackled the challenge of improving community COVID-19 risk assessment by combi
 
 **Technologies:** Android Studio, Kotlin, Firebase, Weather API
 
-<!-- [View in GitHub](https://github.com/thefajarmalik/AHPSAW) -->
+<a href="https://github.com/thefajarmalik/AHPSAW" target="_blank">View in GitHub</a>
+
 
 ---
 
