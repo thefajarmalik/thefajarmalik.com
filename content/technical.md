@@ -21,7 +21,7 @@ technical_groups:
         icon: "list-check"
       - name: "Kali Linux"
         icon: "terminal"
-      - name: "Metasploitable"
+      - name: "Metasploit"
         icon: "m"
       - name: "ISO 27001"
         icon: "certificate"
