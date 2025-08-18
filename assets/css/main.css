@@ -2145,10 +2145,6 @@ body {
   max-width: 24rem;
 }
 
-.max-w-xl{
-  max-width: 36rem;
-}
-
 .flex-1{
   flex: 1 1 0%;
 }
@@ -2357,10 +2353,6 @@ body {
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded-sm{
-  border-radius: 0.125rem;
 }
 
 .border{
@@ -2742,14 +2734,6 @@ body {
 
 .p-8{
   padding: 2rem;
-}
-
-.p-0{
-  padding: 0px;
-}
-
-.p-9{
-  padding: 2.25rem;
 }
 
 .px-2{
