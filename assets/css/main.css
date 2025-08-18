@@ -4306,6 +4306,14 @@ section[id] {
     margin-right: 0px;
   }
 
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
   .lg\:h-96{
     height: 24rem;
   }
