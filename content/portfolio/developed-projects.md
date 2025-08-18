@@ -16,8 +16,8 @@ I addressed the challenge of **enabling authenticated access to a third-party se
 
 **Technologies:** Python, Docker, Shell Script, Javascript, ProVerif
 
-<a href="https://aaltodoc.aalto.fi/items/1504145a-ad66-447a-86e4-d228f4c4f8d6" target="_blank">View Master's Thesis Publication</a> | <a href="https://github.com/thefajarmalik/aplus-auth-forward" target="_blank">View ProVerif code</a> <br>
-View prototype source code: <a href="https://github.com/thefajarmalik/aplus-course" target="_blank">Aplus (IdP)</a> | <a href="https://github.com/thefajarmalik/exercise-platform" target="_blank">External service</a>
+<a href="https://aaltodoc.aalto.fi/items/1504145a-ad66-447a-86e4-d228f4c4f8d6" target="_blank">View Master's Thesis Publication</a><br>
+View source code: <a href="https://github.com/thefajarmalik/aplus-auth-forward" target="_blank">ProVerif</a> | <a href="https://github.com/thefajarmalik/aplus-course" target="_blank">Aplus (IdP)</a> | <a href="https://github.com/thefajarmalik/exercise-platform" target="_blank">External service</a>
 
 ---
 
