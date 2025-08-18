@@ -21,7 +21,7 @@ modal_text_bottom: >-
   ⚽ Watching **football**,<br>
   ⛷️ **Skiing** down the hill,<br>
   🔫 At home playing **Counter Strike**<br>
-  🖥️ **Building** a PC, or
+  🖥️ **Building** a PC, or just<br>
   ⌨️ Changing my **keycaps**.
 
 
