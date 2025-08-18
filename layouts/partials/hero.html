@@ -7,13 +7,13 @@
   </div>
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-    <div class="flex flex-col lg:items-start lg:flex-row items-center justify-between gap-12 mt-8 md:mt-0 w-full">
+    <div class="flex flex-col lg:items-start lg:flex-row items-center justify-between gap-6 md:gap-12 mt-0 w-full">
       <!-- Left content - Profile image -->
       <div class="lg:w-1/2 flex justify-center lg:justify-center mt-8 md:mt-0">
         <div class="relative">
           <!-- Main image container -->
           <div class="relative">
-            <div class="w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-blue-600 to-blue-800 dark:from-blue-100 dark:to-blue-200 p-1">
+            <div class="w-56 h-56 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-blue-600 to-blue-800 dark:from-blue-100 dark:to-blue-200 p-1">
               <div class="w-full h-full rounded-full overflow-hidden bg-white">
                 <img 
                   src="{{ .Site.Params.profile_image }}" 
@@ -41,11 +41,11 @@
       <!-- Right content -->
       <div class="lg:w-1/2 text-center lg:text-left w-full mt-0">
         <!-- Greeting -->
-        <div class="mb-4 mt-4 md:mt-0 hero-text-element" data-animation="greeting">
+        <div class="md:mb-2 mb-4 mt-4 md:mt-0 hero-text-element" data-animation="greeting">
           <span class="text-gray-600 dark:text-gray-300 font-medium text-lg block">Hello, I am <i>the</i></span>
         </div>
         <!-- Name -->
-        <h1 class="text-blue-900 dark:text-white text-4xl md:text-5xl lg:text-7xl font-bold mb-6 font-heading leading-tight hero-name hero-text-element" data-animation="name">
+        <h1 class="text-blue-900 dark:text-white text-4xl md:text-5xl lg:text-7xl font-bold mb-3 md:mb-6 font-heading leading-tight hero-name hero-text-element" data-animation="name">
           {{ .Site.Params.name }}
         </h1>
         <!-- Tagline with typing effect -->
@@ -53,7 +53,7 @@
           <span class="typewriter">{{ .Site.Params.tagline }}</span>
         </h2>
         <!-- Description -->
-        <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto lg:mx-0 text-gray-600 dark:text-gray-300 leading-relaxed hero-text-element" data-animation="description">
+        <p class="text-lg md:text-xl mb-4 md:mb-8 max-w-2xl mx-auto lg:mx-0 text-gray-600 dark:text-gray-300 leading-relaxed hero-text-element" data-animation="description">
           {{ .Site.Params.hero_description | safeHTML }}
         </p>
 
@@ -64,7 +64,7 @@
           </a>
         </div>
         <!-- Social links -->
-        <div class="flex justify-center lg:justify-end space-x-6 mt-8 mb-8 md:mb-0 hero-text-element" data-animation="social">
+        <div class="flex justify-center lg:justify-end space-x-6 mt-4 md:mt-8 mb-8 md:mb-0 hero-text-element" data-animation="social">
           {{ range .Site.Params.social }}
           <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-blue-900 dark:text-white hover:text-blue-200 transition-all duration-300 transform hover:scale-110">
             <i class="fab fa-{{ .icon }} text-2xl"></i>
