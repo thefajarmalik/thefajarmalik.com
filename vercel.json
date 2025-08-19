@@ -25,6 +25,31 @@
       "source": "/contact",
       "destination": "/#contact",
       "permanent": true
+    },
+    {
+      "source": "/featured/",
+      "destination": "/#featured",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/technical",
+      "destination": "/#technical",
+      "permanent": true
+    },
+    {
+      "source": "/experience/",
+      "destination": "/#experience",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/#contact",
+      "permanent": true
     }
   ]
 }
