@@ -36,6 +36,7 @@ To address **workplace abuse**, we developed a web application that allows emplo
 ### Connecting Vets and Pets Owners
 
 To help pet owners access professional veterinary advice, we developed a website that **enables users to consult with veterinarians online**. The platform provides a convenient and reliable way to get expert guidance for pet care.
+
 **Technologies:**  Bootstrap, Laravel, Google Maps API
 
 ---
