@@ -2384,9 +2384,9 @@ body {
   border-color: rgb(191 219 254 / var(--tw-border-opacity, 1));
 }
 
-.border-blue-900{
+.border-blue-600{
   --tw-border-opacity: 1;
-  border-color: rgb(30 58 138 / var(--tw-border-opacity, 1));
+  border-color: rgb(37 99 235 / var(--tw-border-opacity, 1));
 }
 
 .border-gray-200{
@@ -2407,11 +2407,6 @@ body {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-blue-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(37 99 235 / var(--tw-border-opacity, 1));
 }
 
 .border-opacity-30{
@@ -3143,18 +3138,6 @@ body {
   color: rgb(133 77 14 / var(--tw-text-opacity, 1));
 }
 
-.underline{
-  text-decoration-line: underline;
-}
-
-.underline-offset-1{
-  text-underline-offset: 1px;
-}
-
-.underline-offset-2{
-  text-underline-offset: 2px;
-}
-
 .opacity-0{
   opacity: 0;
 }
@@ -3735,11 +3718,6 @@ section[id] {
   display: none;
 }
 
-.dark\:border-blue-100:is(.dark *){
-  --tw-border-opacity: 1;
-  border-color: rgb(219 234 254 / var(--tw-border-opacity, 1));
-}
-
 .dark\:border-blue-600:is(.dark *){
   --tw-border-opacity: 1;
   border-color: rgb(37 99 235 / var(--tw-border-opacity, 1));
@@ -3768,11 +3746,6 @@ section[id] {
 .dark\:border-white:is(.dark *){
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.dark\:border-blue-50:is(.dark *){
-  --tw-border-opacity: 1;
-  border-color: rgb(239 246 255 / var(--tw-border-opacity, 1));
 }
 
 .dark\:bg-blue-400:is(.dark *){
@@ -4135,11 +4108,6 @@ section[id] {
   color: rgb(253 224 71 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-blue-50:is(.dark *){
-  --tw-text-opacity: 1;
-  color: rgb(239 246 255 / var(--tw-text-opacity, 1));
-}
-
 .dark\:hover\:border-gray-100:hover:is(.dark *){
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
@@ -4377,17 +4345,9 @@ section[id] {
 }
 
 @media (min-width: 1024px){
-  .lg\:visible{
-    visibility: visible;
-  }
-
   .lg\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  .lg\:block{
-    display: block;
   }
 
   .lg\:inline{
