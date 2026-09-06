@@ -5,6 +5,19 @@ intro: >-
   From software development, consulting, to cyber security, developing secure business solutions.
 
 positions:
+  - company: "Konecranes"
+    company_url: "https://www.konecranes.com/"
+    role: "Summer Trainee, Security Testing"
+    period: "May 2026 - now"
+    industry: "Engineering"
+    location: "Espoo, Finland"
+    company_description: "Global leader in material handling solutions, serving a broad range of customers across multiple industries."
+    bullet_points:
+      - "Executing PoC of security tool end-to-end, driving technical implementation of self-hosted system"
+      - "Collaborating across the company, effectively navigating the differing perspectives among security stakeholders (including CISO), IT, platform owners, and developer teams"
+      - "Acting as subject matter expert for developer teams on secrets management"
+    skills: "Server management, Secrets Management, Docker, Bash, Kubernetes."
+
   - company: "Aalto University"
     company_url: "https://www.aalto.fi/en"
     role: "Research Assistant, Thesis Worker"
