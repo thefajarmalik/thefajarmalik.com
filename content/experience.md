@@ -13,10 +13,10 @@ positions:
     location: "Espoo, Finland"
     company_description: "Global leader in material handling solutions, serving a broad range of customers across multiple industries."
     bullet_points:
-      - "Executing PoC of security tool end-to-end, driving technical implementation of self-hosted system"
+      - "Implementing a security tool end-to-end, driving technical implementation of self-hosted system"
       - "Collaborating across the company, effectively navigating the differing perspectives among security stakeholders (including CISO), IT, platform owners, and developer teams"
-      - "Acting as subject matter expert for developer teams on secrets management"
-    skills: "Server management, Secrets Management, Docker, Bash, Kubernetes."
+      - "Acting as subject matter expert for developer teams on a security topic"
+    skills: "Server management, Docker, Bash, Kubernetes."
 
   - company: "Aalto University"
     company_url: "https://www.aalto.fi/en"
