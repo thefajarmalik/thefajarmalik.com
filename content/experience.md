@@ -13,10 +13,11 @@ positions:
     location: "Espoo, Finland"
     company_description: "Global leader in material handling solutions, serving a broad range of customers across multiple industries."
     bullet_points:
-      - "Implementing a security tool end-to-end, driving technical implementation of self-hosted system"
-      - "Collaborating across the company, effectively navigating the differing perspectives among security stakeholders (including CISO), IT, platform owners, and developer teams"
-      - "Acting as subject matter expert for developer teams on a security topic"
-    skills: "Server management, Docker, Bash, Kubernetes."
+      - "Implemented a large-scale, enterprise-wide, self-hosted cybersecurity scanning platform, integrating across a large number of repositories & sources within a ~16,500-employee global company."
+      - "Investigated & validated incidents, acting as subject-matter expert for developer teams on secret management & secret leak incident remediation."
+      - "Translated EU Cyber Resilience Act (CRA) regulatory requirements into practical guide for developers by creating internal SBOM guidelines."
+      - "Collaborated across the company, effectively navigating the differing perspectives among security stakeholders (including CISO), IT, platform owners, and developer teams."
+    skills: "Secret management, server management, vulnerability testing."
 
   - company: "Aalto University"
     company_url: "https://www.aalto.fi/en"
