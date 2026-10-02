@@ -3,9 +3,6 @@ title: "About"
 type: "homepage"
 intro: >-
   Moi! Hei! I am a technology and security professional with a background in software development, cloud, cryptography, and security engineering. I enjoy solving complex problems, from designing software solutions and building secure cloud systems to implementing & operating enterprise security platforms and applying security regulations in practice.
-  <br>
-  <br>
-  I bring a high level of attention to detail, proactivity, structured approach, and ability to communicate effectively across various backgrounds, priorities, and perspectives.
 
 quickfacts:
   - title: "Education"
