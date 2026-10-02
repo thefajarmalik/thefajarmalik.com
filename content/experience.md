@@ -19,7 +19,7 @@ positions:
       - "Collaborated effectively across security leadership (including CISO), developer teams, and platform owners, adapting communication to various technical backgrounds, priorities, and perspectives."
       - "Translated EU Cyber Resilience Act (CRA) regulatory requirements into practical guide for developers by creating internal SBOM guidelines."
       - "Innovation program: collaborated with a cross-functional team of 4 to develop idea concepts, validated problem and solution through surveys and stakeholders' interviews, delivered final pitch to jury (Konecranes management team)."
-    skills: "Secret management, server management, security testing."
+    skills: "Secret management, system administration, stakeholders communication, security testing."
 
   - company: "AALTO UNIVERSITY"
     company_url: "https://www.aalto.fi/en"
@@ -29,9 +29,9 @@ positions:
     location: "Espoo, Finland"
     company_description: "The best university in Finland, the happiest country in the world"
     bullet_points:
-      - "Designed and implemented a privacy-preserving (pseudonymous) cloud authentication protocol"
-      - "Verified the protocol's security properties, leveraging cryptographic protocol verifier (ProVerif)"
-      - "Acquired a very good grade (4/5), graduated with honors"
+      - "Designed and implemented a privacy-preserving (pseudonymous) cloud authentication protocol."
+      - "Verified the protocol's security properties using cryptographic protocol verifier."
+      - "Acquired a very good grade (4/5), graduated with honors."
     skills: "Secure Protocol Design, Python, Docker, Bash Scripting, JavaScript, REST API, ProVerif."
 
   - company: "AALTO UNIVERSITY"
@@ -42,8 +42,8 @@ positions:
     location: "Espoo, Finland"
     company_description: "The best university in Finland, the happiest country in the world"
     bullet_points:
-      - "Developed automated grading infrastructure for cloud course"
-      - "Resolved a critical design flaw that introduced a security vulnerability, improving the integrity of the grading system"
+      - "Developed an automated grading infrastructure for cloud course."
+      - "Resolved a critical design flaw that introduced a security vulnerability that allows users to steal other users work, improving the integrity of the grading system."
     skills: "Python testing, Docker, Kubernetes, Gitlab CI/CD, Bash, Aplus, Google Cloud Platform."
 
   - company: "AALTO UNIVERSITY"
@@ -54,7 +54,7 @@ positions:
     location: "Espoo, Finland"
     company_description: "The best university in Finland, the happiest country in the world"
     bullet_points:
-      - "Assisted students during hands-on exercises"
+      - "Guided students during hands-on exercises."
       - "SQL injections, user authentication, buffer overflow, cross-site scripting, password cracking, etc"
     skills: "Cyber security, teaching, web application security, ethical hacking, capture the flag."
 
@@ -66,6 +66,8 @@ positions:
     location: "Yogyakarta, Indonesia"
     company_description: "Software house, developing solutions for clients"
     bullet_points:
+      - "Consulted with clients, translated their business requirements into solution designs."
+      - "Managed project entire life cycle (scope, timeline, milestones, delivery)."
       - "Delivered 14 projects within a single calendar year with 100% client acceptance"
       - "Certain clients returned for next projects, demonstrating trust in our delivery"
     skills: "IT consulting, business analysis, SDLC, documentation, negotiation."

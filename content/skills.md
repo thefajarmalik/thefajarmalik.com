@@ -2,7 +2,7 @@
 title: "Skills"
 type: "homepage"
 intro: >-
-  Security is a continuous learning process. With the right fundamentals and mindset, I can learn, adapt, and solve problems in the AI‑driven world that keeps evolving everyday.
+  Security is a continuous learning process. With the right fundamentals and mindset, I can learn, adapt, and solve complex problems in the AI‑driven world that keeps evolving everyday.
 
 domains:
   - icon: "shield-halved"
@@ -15,6 +15,6 @@ domains:
 
   - icon: "user-group"
     title: "Interpersonal Qualities"
-    description: "I am a proactive problem solver who takes ownership, pays attention to detail, learns quickly, and communicates effectively across various technical and cultural backgrounds."
+    description: "I am a structured & proactive problem-solver who takes ownership, pays attention to detail, learns quickly, and communicates effectively across various technical and cultural backgrounds."
 
 ---
