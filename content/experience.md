@@ -1,25 +1,27 @@
 ---
 title: "Experience"
 type: "homepage"
-intro: >-
-  From software development, consulting, to cyber security, developing secure business solutions.
+# intro: >-
+#   From software development, consulting, to cyber security, developing secure business solutions.
 
 positions:
-  - company: "Konecranes"
+  - company: "KONECRANES"
     company_url: "https://www.konecranes.com/"
-    role: "Summer Trainee, Security Testing"
-    period: "May 2026 - now"
+    role: "Product Security, Summer Trainee"
+    period: "May 2026 - Sep 2026"
     industry: "Engineering"
     location: "Espoo, Finland"
     company_description: "Global leader in material handling solutions, serving a broad range of customers across multiple industries."
     bullet_points:
-      - "Implemented a large-scale, enterprise-wide, self-hosted cybersecurity scanning platform, integrating across a large number of repositories & sources within a ~16,500-employee global company."
-      - "Investigated & validated incidents, acting as subject-matter expert for developer teams on secret management & secret leak incident remediation."
+      - "Implemented an enterprise-wide, self-hosted secrets scanning platform, integrating across a large number of repositories & sources."
+      - "Drove end-to-end platform deployment & operations, including corporate domain & access configuration, troubleshooting, and resource optimization."
+      - "Investigated & validated secret leaks, acted as subject-matter expert for developer teams on secret management."
+      - "Collaborated effectively across security leadership (including CISO), developer teams, and platform owners, adapting communication to various technical backgrounds, priorities, and perspectives."
       - "Translated EU Cyber Resilience Act (CRA) regulatory requirements into practical guide for developers by creating internal SBOM guidelines."
-      - "Collaborated across the company, effectively navigating the differing perspectives among security stakeholders (including CISO), IT, platform owners, and developer teams."
-    skills: "Secret management, server management, vulnerability testing."
+      - "Innovation program: collaborated with a cross-functional team of 4 to develop idea concepts, validated problem and solution through surveys and stakeholders' interviews, delivered final pitch to jury (Konecranes management team)."
+    skills: "Secret management, system administration, stakeholders communication, security testing."
 
-  - company: "Aalto University"
+  - company: "AALTO UNIVERSITY"
     company_url: "https://www.aalto.fi/en"
     role: "Research Assistant, Thesis Worker"
     period: "Feb 2024 - Sep 2024"
@@ -27,12 +29,12 @@ positions:
     location: "Espoo, Finland"
     company_description: "The best university in Finland, the happiest country in the world"
     bullet_points:
-      - "Designed and implemented a privacy-preserving (pseudonymous) cloud authentication protocol"
-      - "Verified the protocol's security properties, leveraging cryptographic protocol verifier (ProVerif)"
-      - "Acquired a very good grade (4/5), graduated with honors"
+      - "Designed and implemented a privacy-preserving (pseudonymous) cloud authentication protocol."
+      - "Verified the protocol's security properties using cryptographic protocol verifier."
+      - "Acquired a very good grade (4/5), graduated with honors."
     skills: "Secure Protocol Design, Python, Docker, Bash Scripting, JavaScript, REST API, ProVerif."
 
-  - company: "Aalto University"
+  - company: "AALTO UNIVERSITY"
     company_url: "https://www.aalto.fi/en"
     role: "Summer Intern (Software Engineer)"
     period: "May 2023 - Aug 2023"
@@ -40,11 +42,11 @@ positions:
     location: "Espoo, Finland"
     company_description: "The best university in Finland, the happiest country in the world"
     bullet_points:
-      - "Developed automated grading infrastructure for cloud course"
-      - "Resolved a critical design flaw that introduced a security vulnerability, improving the integrity of the grading system"
+      - "Developed an automated grading infrastructure for cloud course."
+      - "Resolved a critical design flaw that introduced a security vulnerability that allows users to steal other users work, improving the integrity of the grading system."
     skills: "Python testing, Docker, Kubernetes, Gitlab CI/CD, Bash, Aplus, Google Cloud Platform."
 
-  - company: "Aalto University"
+  - company: "AALTO UNIVERSITY"
     company_url: "https://www.aalto.fi/en"
     role: "Teaching Assistant (Information Security course)"
     period: "2022"
@@ -52,11 +54,11 @@ positions:
     location: "Espoo, Finland"
     company_description: "The best university in Finland, the happiest country in the world"
     bullet_points:
-      - "Assisted students during hands-on exercises"
+      - "Guided students during hands-on exercises."
       - "SQL injections, user authentication, buffer overflow, cross-site scripting, password cracking, etc"
     skills: "Cyber security, teaching, web application security, ethical hacking, capture the flag."
 
-  - company: "OmahTI UGM"
+  - company: "OMAHTI"
     company_url: "https://omahti.web.id/"
     role: "IT Project Manager"
     period: "2018-2019"
@@ -64,6 +66,8 @@ positions:
     location: "Yogyakarta, Indonesia"
     company_description: "Software house, developing solutions for clients"
     bullet_points:
+      - "Consulted with clients, translated their business requirements into solution designs."
+      - "Managed project entire life cycle (scope, timeline, milestones, delivery)."
       - "Delivered 14 projects within a single calendar year with 100% client acceptance"
       - "Certain clients returned for next projects, demonstrating trust in our delivery"
     skills: "IT consulting, business analysis, SDLC, documentation, negotiation."
