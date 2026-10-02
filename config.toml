@@ -4,24 +4,23 @@ theme = "careercanvas"
 
 [params]
 name = "Fajar Malik"
-tagline = "Cybersecurity Engineer"
+tagline = "Security Engineer"
 location = "Helsinki, Finland"
 email = "mrfajarmalik@gmail.com"
 profile_image = "/images/fajar-profile.png"
-description = "I am a cybersecurity engineer with a Nordic perspective, with Master's degrees from Aalto in Finland and NTNU in Norway."
+description = "I protect businesses, people, and products at scale by turning complex security challenges into practical solutions. M.Sc. in Security & Cloud from Aalto University."
 author = "Fajar Malik"
 og_image = "/images/og-image.jpg"
 
-# hero_description = "I am a cybersecurity engineer with a Nordic perspective, with Master's degrees in <b>Security & Cloud</b> from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴<br>I want to help organizations build secure, practical systems with a structured & detail-oriented approach."
-hero_description = "I am a cybersecurity engineer with a Nordic perspective, with Master's degrees in Security & Cloud from Aalto University&nbsp;🇫🇮 and NTNU&nbsp;🇳🇴"
-hero_location = "Helsinki, Finland 🇫🇮"
+hero_description = "I protect businesses, people, and products at scale by turning complex security challenges into practical solutions. <br><br> M.Sc. in Security & Cloud from Aalto University 🇫🇮"
+hero_location = "Helsinki, Finland"
 
 linkedin_url = "https://www.linkedin.com/in/thefajarmalik"
 linkedin_text = "linkedin.com/in/thefajarmalik"
 github_url = "https://github.com/thefajarmalik"
 github_text = "github.com/thefajarmalik"
 
-copyright = "© 2025 | Fajar Malik"
+copyright = "© 2026 | Fajar Malik"
 
 #collab_tags = ["Cyber Security"]
 

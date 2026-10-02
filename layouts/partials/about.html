@@ -1,4 +1,4 @@
-<section id="about" class="py-16 bg-white dark:bg-gray-800 relative about-section">
+<section id="about" class="py-16 bg-gray-50 dark:bg-gray-900 relative about-section">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     <h2 class="text-3xl font-bold text-center mb-12 font-heading text-gray-900 dark:text-white about-text-element"
       data-animation="title">About Me</h2>
@@ -7,11 +7,11 @@
         data-animation="intro">
         {{ with .Site.GetPage "about" }}{{ .Params.intro | markdownify }}{{ end }}
       </p>
-      <button id="aboutModalBtn"
+      <!-- <button id="aboutModalBtn"
         class="ml-0 md:ml-8 bg-gradient-to-r from-blue-600 to-blue-700 dark:from-blue-500 dark:to-blue-600 text-white px-8 py-3 rounded-lg hover:from-blue-700 hover:to-blue-800 dark:hover:from-blue-600 dark:hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg font-semibold flex items-center about-button">
-        <i class="fas fa-eye mr-2"></i>
-        My detailed story
-      </button>
+        <i class="fas fa-circle-info mr-2"></i>
+        My journey so far
+      </button> -->
     </div>
     <div class="w-full">
       <div
@@ -20,7 +20,7 @@
           class="text-xl font-semibold mb-6 border-b border-gray-200 dark:border-gray-600 pb-3 font-heading text-gray-900 dark:text-white flex items-center about-text-element"
           data-animation="facts-title">
           <i class="fas fa-info-circle mr-3 text-blue-600 dark:text-blue-400"></i>
-          Quick Facts
+          Education, Awards, and Languages
         </h3>
         <div class="space-y-0">
           {{ with .Site.GetPage "about" }}
@@ -56,7 +56,7 @@
       <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-2xl max-h-[70vh] overflow-y-auto">
         <div class="p-8">
           <div class="flex justify-between items-center mb-6">
-            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">A bit more detail on my journey</h3>
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">My journey so far</h3>
             <button id="closeAboutModal"
               class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl font-bold">
               <i class="fas fa-square-xmark"></i>
