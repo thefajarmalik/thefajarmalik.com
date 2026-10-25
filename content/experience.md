@@ -13,6 +13,7 @@ positions:
     location: "Espoo, Finland"
     company_description: "Global leader in material handling solutions, serving a broad range of customers across multiple industries."
     bullet_points:
+      - "Evaluated emerging AI-driven security capabilities, including AI-assisted threat modeling and automated SAST/SCA, identifying adoption opportunities."
       - "Implemented an enterprise-wide, self-hosted secrets scanning platform, integrating across a large number of repositories & sources."
       - "Drove end-to-end platform deployment & operations, including corporate domain & access configuration, troubleshooting, and resource optimization."
       - "Investigated & validated secret leaks, acted as subject-matter expert for developer teams on secret management."
