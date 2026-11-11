@@ -14,10 +14,10 @@ positions:
     company_description: "Global leader in material handling solutions, serving a broad range of customers across multiple industries."
     bullet_points:
       - "AI-driven security: Evaluated emerging capabilities (AI-assisted security tooling such as threat modeling and SAST/SCA) to identify adoption opportunities."
+      - "Stakeholder management: Collaborated with security leadership (CISO), developers, and platform owners across backgrounds and perspectives."
       - "Enterprise secrets scanning: Implemented self-hosted secrets scanning platform, integrating a large number of repositories & sources (~16k-employee)."
       - "Production-level system operation: Drove production-level platform deployment and administration, including automation (Ansible & Bash scripts), Entra ID IAM, TLS/DNS, Kubernetes troubleshooting & resource optimization."
       - "Incident response: Investigated secret leak incidents, prioritized remediation, and acted as secret management expert for developer teams."
-      - "Stakeholder communication: Collaborated with security leadership (CISO), developers, and platform owners across backgrounds and perspectives."
       - "Cybersecurity governance: Translated EU Cyber Resilience Act (CRA) regulatory requirements into practical guide for developers."
       - "Innovation program: collaborated with a cross-functional team of 4 to develop idea concepts, validated problem and solution through surveys and stakeholders' interviews, delivered final pitch to jury (Konecranes management team)."
     skills: "AI for security, secrets management, system administration, stakeholders communication, incident response, security governance."
